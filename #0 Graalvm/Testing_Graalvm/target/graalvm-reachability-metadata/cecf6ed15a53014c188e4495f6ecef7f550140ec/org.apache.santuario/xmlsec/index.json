@@ -1,0 +1,17 @@
+[
+  {
+    "latest": true,
+    "allowed-packages" : [
+      "org.apache"
+    ],
+    "metadata-version": "4.0.4",
+    "source-code-url": "https://repo.maven.apache.org/maven2/org/apache/santuario/xmlsec/$version$/xmlsec-$version$-sources.jar",
+    "repository-url": "https://github.com/apache/santuario-xml-security-java",
+    "test-code-url": "https://github.com/apache/santuario-xml-security-java/tree/xmlsec-$version$/src/test",
+    "documentation-url": "https://repo.maven.apache.org/maven2/org/apache/santuario/xmlsec/$version$/xmlsec-$version$-javadoc.jar",
+    "description": "Apache Santuario XML Security for Java implements XML Signature and XML Encryption standards for Java applications. It provides the JSR-105 API along with DOM-based and StAX-based implementations for signing, encrypting, and processing XML security data.",
+    "tested-versions": [
+      "4.0.4"
+    ]
+  }
+]

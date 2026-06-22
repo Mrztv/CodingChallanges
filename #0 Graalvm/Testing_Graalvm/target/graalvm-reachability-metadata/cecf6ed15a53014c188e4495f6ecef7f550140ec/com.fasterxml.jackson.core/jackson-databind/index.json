@@ -1,0 +1,43 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "2.15.2",
+    "source-code-url" : "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/$version$/jackson-databind-$version$-sources.jar",
+    "repository-url" : "https://github.com/FasterXML/jackson-databind",
+    "test-code-url" : "https://github.com/FasterXML/jackson-databind/tree/jackson-databind-$version$/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/$version$/jackson-databind-$version$-javadoc.jar",
+    "description" : "Jackson Databind provides general-purpose data binding and tree-model APIs for Jackson on top of the core streaming API. It converts between JSON and Java objects and can also work with other data formats when compatible parsers and generators are available.",
+    "tested-versions" : [
+      "2.15.2",
+      "2.15.4",
+      "2.16.0",
+      "2.16.1",
+      "2.16.2",
+      "2.17.0",
+      "2.17.1",
+      "2.17.2",
+      "2.17.3",
+      "2.18.0",
+      "2.18.1",
+      "2.18.2",
+      "2.18.3",
+      "2.18.4",
+      "2.18.5",
+      "2.19.0",
+      "2.19.1",
+      "2.19.2",
+      "2.19.3",
+      "2.19.4",
+      "2.20.0",
+      "2.20.1",
+      "2.21.0",
+      "2.21.1",
+      "2.21.2",
+      "2.21.3",
+      "2.21.4"
+    ],
+    "allowed-packages" : [
+      "com.fasterxml.jackson.databind"
+    ]
+  }
+]

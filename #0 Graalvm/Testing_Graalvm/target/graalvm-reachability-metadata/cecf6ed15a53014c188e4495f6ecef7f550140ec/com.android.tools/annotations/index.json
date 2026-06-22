@@ -1,0 +1,23 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "24.5.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/com/android/tools/annotations/$version$/annotations-$version$-sources.jar",
+    "repository-url" : "https://android.googlesource.com/platform/tools/base",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/com/android/tools/annotations/$version$/annotations-$version$-javadoc.jar",
+    "description" : "com.android.tools:annotations provides the nullability, visibility, and concurrency annotations shared by Android tools libraries. These annotations let Android build and analysis tooling express API contracts for static analysis and documentation without adding runtime behavior.",
+    "tested-versions" : [
+      "24.5.0",
+      "25.0.0",
+      "25.1.0",
+      "25.1.2",
+      "25.1.3",
+      "25.2.0",
+      "25.3.0"
+    ],
+    "allowed-packages" : [
+      "com.android.annotations"
+    ]
+  }
+]

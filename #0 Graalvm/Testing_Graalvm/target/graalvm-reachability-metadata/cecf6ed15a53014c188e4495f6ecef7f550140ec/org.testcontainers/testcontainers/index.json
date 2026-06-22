@@ -1,0 +1,48 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "1.19.8",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/testcontainers/testcontainers/$version$/testcontainers-$version$-sources.jar",
+    "repository-url" : "https://github.com/testcontainers/testcontainers-java",
+    "test-code-url" : "https://github.com/testcontainers/testcontainers-java/tree/$version$/core/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/testcontainers/testcontainers/$version$/testcontainers-$version$-javadoc.jar",
+    "description" : "Testcontainers is a Java library for JUnit tests that provides lightweight, throwaway Docker containers for databases, web browsers, and other services. It helps integration tests run against real dependencies instead of mocks or in-memory substitutes.",
+    "tested-versions" : [
+      "1.19.8",
+      "1.20.0",
+      "1.20.1",
+      "1.20.2",
+      "1.20.3",
+      "1.20.4",
+      "1.20.5",
+      "1.20.6",
+      "1.21.0",
+      "1.21.1",
+      "1.21.2",
+      "1.21.3",
+      "2.0.0",
+      "2.0.1",
+      "2.0.2",
+      "2.0.3",
+      "2.0.4",
+      "2.0.5"
+    ],
+    "allowed-packages" : [
+      "org.testcontainers"
+    ]
+  },
+  {
+    "metadata-version" : "1.17.6",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/testcontainers/testcontainers/$version$/testcontainers-$version$-sources.jar",
+    "repository-url" : "https://github.com/testcontainers/testcontainers-java",
+    "test-code-url" : "https://github.com/testcontainers/testcontainers-java/tree/$version$/core/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/testcontainers/testcontainers/$version$/testcontainers-$version$-javadoc.jar",
+    "description" : "Testcontainers is a Java library for tests that provides lightweight, throwaway instances of databases, web browsers, and other services running in Docker containers. It helps integration tests run against real dependencies instead of mocks or in-memory substitutes.",
+    "tested-versions" : [
+      "1.17.6"
+    ],
+    "allowed-packages" : [
+      "org.testcontainers"
+    ]
+  }
+]

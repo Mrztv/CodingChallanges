@@ -1,0 +1,85 @@
+[
+  {
+    "metadata-version" : "2.3.6.Final",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-sources.jar",
+    "repository-url" : "https://github.com/jboss/jboss-threads",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-source-release.zip",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-javadoc.jar",
+    "description" : "JBoss Threads provides thread, executor, thread-factory, and thread-pool utilities for Java applications and JBoss-based runtimes. It includes executor implementations such as enhanced queue-based executors, direct and blocking executors, shutdown listeners, management interfaces, and helpers for naming, wrapping, and handling threads.",
+    "tested-versions" : [
+      "2.3.6.Final"
+    ],
+    "allowed-packages" : [
+      "org.jboss.threads"
+    ]
+  },
+  {
+    "latest" : true,
+    "metadata-version" : "3.1.1.Final",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-sources.jar",
+    "repository-url" : "https://github.com/jboss/jboss-threads",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-source-release.zip",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-javadoc.jar",
+    "description" : "JBoss Threads provides thread, executor, thread-factory, and thread-pool utilities for Java applications and JBoss-based runtimes. It includes executor implementations such as enhanced queue-based executors, direct and blocking executors, shutdown listeners, management interfaces, and helpers for naming, wrapping, and handling threads.",
+    "tested-versions" : [
+      "3.1.1.Final",
+      "3.2.0.Final",
+      "3.3.0.Final",
+      "3.4.0.Final",
+      "3.4.1.Final",
+      "3.4.2.Final",
+      "3.4.3.Final",
+      "3.5.0.Final",
+      "3.5.1.Final",
+      "3.6.0.Final",
+      "3.6.1.Final",
+      "3.7.0.Final",
+      "3.8.0.Final"
+    ],
+    "allowed-packages" : [
+      "org.jboss.threads"
+    ]
+  },
+  {
+    "metadata-version" : "3.1.0.Final",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-sources.jar",
+    "repository-url" : "https://github.com/jboss/jboss-threads",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-source-release.zip",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-javadoc.jar",
+    "description" : "JBoss Threads provides thread, executor, thread-factory, and thread-pool utilities for Java applications and JBoss-based runtimes. It includes executor implementations such as enhanced queue-based executors, direct and blocking executors, shutdown listeners, management interfaces, and helpers for naming, wrapping, and handling threads.",
+    "tested-versions" : [
+      "3.1.0.Final"
+    ],
+    "allowed-packages" : [
+      "org.jboss.threads"
+    ]
+  },
+  {
+    "metadata-version" : "3.0.1.Final",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-sources.jar",
+    "repository-url" : "https://github.com/jboss/jboss-threads",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-source-release.zip",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-javadoc.jar",
+    "description" : "JBoss Threads provides thread, executor, thread-factory, and thread-pool utilities for Java applications and JBoss-based runtimes. It includes executor implementations such as enhanced queue-based executors, direct and blocking executors, shutdown listeners, management interfaces, and helpers for naming, wrapping, and handling threads.",
+    "tested-versions" : [
+      "3.0.1.Final"
+    ],
+    "allowed-packages" : [
+      "org.jboss.threads"
+    ]
+  },
+  {
+    "metadata-version" : "3.0.0.Final",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-sources.jar",
+    "repository-url" : "https://github.com/jboss/jboss-threads",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-source-release.zip",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jboss/threads/jboss-threads/$version$/jboss-threads-$version$-javadoc.jar",
+    "description" : "JBoss Threads provides thread, executor, thread-factory, and thread-pool utilities for Java applications and JBoss-based runtimes. It includes executor implementations such as enhanced queue-based executors, direct and blocking executors, shutdown listeners, management interfaces, and helpers for naming, wrapping, and handling threads.",
+    "tested-versions" : [
+      "3.0.0.Final"
+    ],
+    "allowed-packages" : [
+      "org.jboss.threads"
+    ]
+  }
+]

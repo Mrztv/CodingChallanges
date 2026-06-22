@@ -1,0 +1,21 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "2.10.2",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-placeholders/$version$/xmlunit-placeholders-$version$-sources.jar",
+    "repository-url" : "https://github.com/xmlunit/xmlunit",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-placeholders/$version$/xmlunit-placeholders-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-placeholders/$version$/xmlunit-placeholders-$version$-javadoc.jar",
+    "description" : "XMLUnit Placeholders adds an experimental placeholder DSL to XMLUnit comparisons, letting control XML use tokens such as ${xmlunit.ignore}, ${xmlunit.isNumber}, ${xmlunit.matchesRegex}, and ${xmlunit.isDateTime} in element text or attribute values. The module integrates this behavior through placeholder difference evaluators and helper methods for DiffBuilder or CompareMatcher so tests can tolerate dynamic XML values while still comparing document structure.",
+    "tested-versions" : [
+      "2.10.2",
+      "2.10.3",
+      "2.10.4",
+      "2.11.0",
+      "2.12.0"
+    ],
+    "allowed-packages" : [
+      "org.xmlunit.placeholder"
+    ]
+  }
+]

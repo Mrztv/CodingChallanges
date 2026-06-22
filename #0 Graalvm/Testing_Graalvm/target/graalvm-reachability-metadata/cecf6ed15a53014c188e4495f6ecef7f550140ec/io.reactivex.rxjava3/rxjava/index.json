@@ -1,0 +1,24 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "3.1.5",
+    "source-code-url" : "https://repo1.maven.org/maven2/io/reactivex/rxjava3/rxjava/$version$/rxjava-$version$-sources.jar",
+    "repository-url" : "https://github.com/ReactiveX/RxJava",
+    "test-code-url" : "https://github.com/ReactiveX/RxJava/tree/v$version$/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/io/reactivex/rxjava3/rxjava/$version$/rxjava-$version$-javadoc.jar",
+    "description" : "RxJava is a Reactive Extensions implementation for the JVM that composes asynchronous and event-based programs using observable sequences. It provides reactive types such as Flowable, Observable, Single, Maybe, and Completable with operators, schedulers, backpressure handling, and test utilities for building reactive pipelines.",
+    "tested-versions" : [
+      "3.1.5",
+      "3.1.6",
+      "3.1.7",
+      "3.1.8",
+      "3.1.9",
+      "3.1.10",
+      "3.1.11",
+      "3.1.12"
+    ],
+    "allowed-packages" : [
+      "io.reactivex.rxjava3"
+    ]
+  }
+]

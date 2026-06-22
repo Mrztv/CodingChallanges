@@ -1,0 +1,92 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "12.1.5",
+    "test-version" : "12.0.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/$version$/jetty-client-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://github.com/jetty/jetty.project/tree/jetty-$version$/jetty-core/jetty-client/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/$version$/jetty-client-$version$-javadoc.jar",
+    "description" : "Jetty Client is an efficient, asynchronous, non-blocking HTTP client library for Java that also supports blocking request workflows through a simple API. It provides the HttpClient implementation, request and response APIs, connection pooling, and central configuration for network parameters, redirects, and cookies.",
+    "tested-versions" : [
+      "12.1.5",
+      "12.1.6",
+      "12.1.7",
+      "12.1.8",
+      "12.1.9",
+      "12.1.10"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty"
+    ]
+  },
+  {
+    "metadata-version" : "12.0.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/$version$/jetty-client-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://github.com/jetty/jetty.project/tree/jetty-$version$/jetty-core/jetty-client/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/$version$/jetty-client-$version$-javadoc.jar",
+    "description" : "Jetty Client is an efficient, asynchronous, non-blocking HTTP client library for Java that also supports blocking request workflows through a simple API. It provides the HttpClient implementation, request and response APIs, connection pooling, and central configuration for network settings, redirects, and cookies.",
+    "tested-versions" : [
+      "12.0.0",
+      "12.0.1",
+      "12.0.2",
+      "12.0.3",
+      "12.0.4",
+      "12.0.5",
+      "12.0.6",
+      "12.0.7",
+      "12.0.8",
+      "12.0.9",
+      "12.0.10",
+      "12.0.11",
+      "12.0.12",
+      "12.0.13",
+      "12.0.14",
+      "12.0.15",
+      "12.0.16",
+      "12.0.17",
+      "12.0.18",
+      "12.0.19",
+      "12.0.20",
+      "12.1.0",
+      "12.1.1",
+      "12.1.2",
+      "12.1.3",
+      "12.1.4"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty"
+    ]
+  },
+  {
+    "metadata-version" : "11.0.12",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/$version$/jetty-client-$version$-sources.jar",
+    "repository-url" : "https://github.com/eclipse/jetty.project",
+    "test-code-url" : "https://github.com/eclipse/jetty.project/tree/jetty-$version$/jetty-client/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/$version$/jetty-client-$version$-javadoc.jar",
+    "description" : "Jetty Client is an asynchronous HTTP client library for Java. It provides the HttpClient implementation, request and response APIs, and connection management needed to send HTTP requests and handle responses synchronously or asynchronously.",
+    "tested-versions" : [
+      "11.0.12",
+      "11.0.13",
+      "11.0.14",
+      "11.0.15",
+      "11.0.16",
+      "11.0.17",
+      "11.0.18",
+      "11.0.19",
+      "11.0.20",
+      "11.0.21",
+      "11.0.22",
+      "11.0.23",
+      "11.0.24",
+      "12.0.0.alpha0",
+      "12.0.0.alpha1",
+      "12.0.0.alpha2",
+      "12.0.0.alpha3"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty"
+    ]
+  }
+]

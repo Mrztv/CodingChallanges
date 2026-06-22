@@ -1,0 +1,12 @@
+[
+  {
+    "latest": true,
+    "allowed-packages": [
+      "samples"
+    ],
+    "metadata-version": "image-pull",
+    "tested-versions": [
+      "image-pull"
+    ]
+  }
+]

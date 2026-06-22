@@ -1,0 +1,35 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "3.2.13",
+    "source-code-url" : "https://repo1.maven.org/maven2/com/github/docker-java/docker-java-transport/$version$/docker-java-transport-$version$-sources.jar",
+    "repository-url" : "https://github.com/docker-java/docker-java",
+    "test-code-url" : "https://repo1.maven.org/maven2/com/github/docker-java/docker-java-transport/$version$/docker-java-transport-$version$-tests.jar",
+    "documentation-url" : "https://repo1.maven.org/maven2/com/github/docker-java/docker-java-transport/$version$/docker-java-transport-$version$-javadoc.jar",
+    "description" : "docker-java-transport provides the core transport abstractions and shared utilities used by docker-java clients to communicate with the Docker Remote API. It defines common request and response plumbing that concrete transport implementations build on.",
+    "tested-versions" : [
+      "3.2.13",
+      "3.2.14",
+      "3.3.0",
+      "3.3.1",
+      "3.3.2",
+      "3.3.3",
+      "3.3.4",
+      "3.3.5",
+      "3.3.6",
+      "3.4.0",
+      "3.4.1",
+      "3.4.2",
+      "3.5.0",
+      "3.5.1",
+      "3.5.2",
+      "3.5.3",
+      "3.6.0",
+      "3.7.0",
+      "3.7.1"
+    ],
+    "allowed-packages" : [
+      "com.github.dockerjava.transport"
+    ]
+  }
+]

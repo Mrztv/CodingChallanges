@@ -1,0 +1,149 @@
+{
+  "reflection" : [
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.util.Loader"
+      },
+      "type" : "ch.qos.logback.core.ContextBase"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.model.processor.SerializeModelModelHandler"
+      },
+      "type" : "ch.qos.logback.core.model.Model",
+      "serializable" : true
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.util.EnvUtil"
+      },
+      "type" : "java.lang.ClassLoader"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.model.processor.SerializeModelModelHandler"
+      },
+      "type" : "java.lang.Object"
+    },
+    {
+      "type" : "java.lang.Object",
+      "methods" : [
+        {
+          "name" : "<init>",
+          "parameterTypes" : [ ]
+        }
+      ]
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.net.AutoFlushingObjectWriter"
+      },
+      "type" : "java.lang.StackTraceElement[]"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.net.AutoFlushingObjectWriter"
+      },
+      "type" : "java.lang.String",
+      "serializable" : true,
+      "fields" : [
+        {
+          "name" : "serialVersionUID"
+        }
+      ]
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.net.HardenedObjectInputStream"
+      },
+      "type" : "java.lang.String",
+      "serializable" : true,
+      "fields" : [
+        {
+          "name" : "serialVersionUID"
+        }
+      ]
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.util.EnvUtil"
+      },
+      "type" : "java.lang.String"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.util.Loader"
+      },
+      "type" : "java.lang.String"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.ConsoleAppender"
+      },
+      "type" : "java.lang.String[]"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.net.AutoFlushingObjectWriter"
+      },
+      "type" : "java.lang.reflect.Constructor[]"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.model.processor.SerializeModelModelHandler"
+      },
+      "type" : "java.lang.reflect.Field[]"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.joran.util.StringToObjectConverter"
+      },
+      "type" : "java.lang.reflect.Method[]"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.joran.util.beans.BeanDescriptionFactory"
+      },
+      "type" : "java.lang.reflect.Method[]"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.model.processor.SerializeModelModelHandler"
+      },
+      "type" : "java.util.ArrayList",
+      "serializable" : true
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.util.EnvUtil"
+      },
+      "type" : "org.codehaus.janino.ScriptEvaluator"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.ConsoleAppender"
+      },
+      "type" : "org.fusesource.jansi.AnsiConsole",
+      "methods" : [
+        {
+          "name" : "systemInstall",
+          "parameterTypes" : [ ]
+        }
+      ]
+    }
+  ],
+  "resources" : [
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.util.CoreVersionUtil"
+      },
+      "glob" : "ch/qos/logback/core/logback-core-version.properties"
+    },
+    {
+      "condition" : {
+        "typeReached" : "ch.qos.logback.core.util.Loader"
+      },
+      "glob" : "ch_qos_logback/logback_core/LoaderTest.class"
+    }
+  ]
+}

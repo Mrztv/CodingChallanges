@@ -1,0 +1,36 @@
+[
+  {
+    "metadata-version" : "3.0.7",
+    "source-code-url" : "https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/$version$/istack-commons-runtime-$version$-sources.jar",
+    "repository-url" : "https://github.com/javaee/jaxb-istack-commons",
+    "test-code-url" : "https://github.com/javaee/jaxb-istack-commons/tree/$version$-RELEASE/istack-commons/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/$version$/istack-commons-runtime-$version$-javadoc.jar",
+    "description" : "Provides the runtime portion of iStack Commons, a small set of shared utility classes used by JAXB and related Java XML and web-services components. It includes reusable support for annotations, localization, logging, XML and SAX helpers, and other common infrastructure.",
+    "tested-versions" : [
+      "3.0.7"
+    ],
+    "allowed-packages" : [
+      "com.sun.istack"
+    ]
+  },
+  {
+    "latest" : true,
+    "metadata-version" : "4.0.0",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/$version$/istack-commons-runtime-$version$-sources.jar",
+    "repository-url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons",
+    "test-code-url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons/tree/$version$/istack-commons/runtime/src/test",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/$version$/istack-commons-runtime-$version$-javadoc.jar",
+    "description" : "Provides the runtime portion of iStack Commons, a small set of shared utility classes used by JAXB and related Java XML and web-services components. It includes reusable support for annotations, localization, logging, XML and SAX helpers, and other common infrastructure.",
+    "tested-versions" : [
+      "4.0.0",
+      "4.0.1",
+      "4.1.0",
+      "4.1.1",
+      "4.1.2",
+      "4.2.0"
+    ],
+    "allowed-packages" : [
+      "com.sun.istack"
+    ]
+  }
+]

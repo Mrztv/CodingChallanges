@@ -1,0 +1,33 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "1.30",
+    "source-code-url" : "https://repo1.maven.org/maven2/net/razorvine/serpent/$version$/serpent-$version$-sources.jar",
+    "repository-url" : "https://github.com/irmen/Serpent",
+    "test-code-url" : "https://github.com/irmen/Serpent/tree/serpent-$version$/java/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/net/razorvine/serpent/$version$/serpent-$version$-javadoc.jar",
+    "description" : "Serpent serializes Java object trees into Python ast.literal_eval-compatible literal expressions and parses those expressions back into Java objects. It provides a safer, more expressive alternative to JSON for exchanging structured data between Java and Python systems.",
+    "tested-versions" : [
+      "1.30",
+      "1.40",
+      "1.43"
+    ],
+    "allowed-packages" : [
+      "net.razorvine.serpent"
+    ]
+  },
+  {
+    "metadata-version" : "1.23",
+    "source-code-url" : "https://repo1.maven.org/maven2/net/razorvine/serpent/$version$/serpent-$version$-sources.jar",
+    "repository-url" : "https://github.com/irmen/Serpent",
+    "test-code-url" : "https://github.com/irmen/Serpent/tree/serpent-$version$/java/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/net/razorvine/serpent/$version$/serpent-$version$-javadoc.jar",
+    "description" : "Serpent serializes Java object trees into Python ast.literal_eval-compatible literal expressions and parses those expressions back into Java objects. It provides a safer, more expressive alternative to JSON for exchanging structured data between Java and Python systems.",
+    "tested-versions" : [
+      "1.23"
+    ],
+    "allowed-packages" : [
+      "net.razorvine.serpent"
+    ]
+  }
+]

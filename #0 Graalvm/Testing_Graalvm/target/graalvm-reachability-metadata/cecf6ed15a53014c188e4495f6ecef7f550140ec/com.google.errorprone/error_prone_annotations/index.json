@@ -1,0 +1,111 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "2.6.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/$version$/error_prone_annotations-$version$-sources.jar",
+    "repository-url" : "https://github.com/google/error-prone",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/$version$/error_prone_annotations-$version$-javadoc.jar",
+    "description" : "Error Prone Annotations provides Java annotations used by the Error Prone static analysis tool to express contracts, suppress warnings, and mark API behavior. The annotations are compile-time metadata and do not implement checking logic themselves.",
+    "tested-versions" : [
+      "2.6.0",
+      "2.7.0",
+      "2.7.1",
+      "2.8.0",
+      "2.8.1",
+      "2.9.0",
+      "2.10.0",
+      "2.11.0",
+      "2.12.0",
+      "2.12.1",
+      "2.13.0",
+      "2.13.1",
+      "2.14.0",
+      "2.15",
+      "2.15.0",
+      "2.16",
+      "2.17.0",
+      "2.18.0",
+      "2.19.0",
+      "2.19.1",
+      "2.20.0",
+      "2.21.0",
+      "2.21.1",
+      "2.22.0",
+      "2.23.0",
+      "2.24.0",
+      "2.24.1",
+      "2.25.0",
+      "2.26.0",
+      "2.26.1",
+      "2.27.0",
+      "2.27.1",
+      "2.28.0",
+      "2.29.0",
+      "2.29.1",
+      "2.29.2",
+      "2.30.0",
+      "2.31.0",
+      "2.32.0",
+      "2.33.0",
+      "2.34.0",
+      "2.35.0",
+      "2.35.1",
+      "2.36.0",
+      "2.37.0",
+      "2.38.0",
+      "2.39.0",
+      "2.40.0",
+      "2.41.0",
+      "2.42.0",
+      "2.43.0",
+      "2.44.0",
+      "2.45.0"
+    ],
+    "allowed-packages" : [
+      "com.google.errorprone.annotations"
+    ]
+  },
+  {
+    "metadata-version" : "2.4.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0-sources.jar",
+    "repository-url" : "https://github.com/google/error-prone",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.4.0/error_prone_annotations-2.4.0-javadoc.jar",
+    "description" : "Error Prone Annotations provides Java annotations used by the Error Prone static analysis tool to express contracts, suppress warnings, and mark API behavior. The annotations are compile-time metadata and do not implement checking logic themselves.",
+    "tested-versions" : [
+      "2.4.0"
+    ],
+    "allowed-packages" : [
+      "com.google.errorprone.annotations"
+    ]
+  },
+  {
+    "metadata-version" : "2.3.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/$version$/error_prone_annotations-$version$-sources.jar",
+    "repository-url" : "https://github.com/google/error-prone",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/$version$/error_prone_annotations-$version$-javadoc.jar",
+    "description" : "Error Prone Annotations provides Java annotations used by the Error Prone static analysis tool to express contracts, suppress warnings, and mark API behavior. The annotations are compile-time metadata and do not implement checking logic themselves.",
+    "tested-versions" : [
+      "2.3.0"
+    ],
+    "allowed-packages" : [
+      "com.google.errorprone.annotations"
+    ]
+  },
+  {
+    "metadata-version" : "2.0.18",
+    "source-code-url" : "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/$version$/error_prone_annotations-$version$-sources.jar",
+    "repository-url" : "https://github.com/google/error-prone",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/$version$/error_prone_annotations-$version$-javadoc.jar",
+    "description" : "Error Prone Annotations provides Java annotations used by the Error Prone static analysis tool to express contracts, suppress warnings, and mark API behavior. The annotations are compile-time metadata and do not implement checking logic themselves.",
+    "tested-versions" : [
+      "2.0.18"
+    ],
+    "allowed-packages" : [
+      "com.google.errorprone.annotations"
+    ]
+  }
+]

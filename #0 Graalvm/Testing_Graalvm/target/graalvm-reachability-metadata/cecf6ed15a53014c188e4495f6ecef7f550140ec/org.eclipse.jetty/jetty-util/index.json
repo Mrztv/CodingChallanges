@@ -1,0 +1,48 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "12.0.9",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/$version$/jetty-util-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://github.com/jetty/jetty.project/tree/jetty-$version$/jetty-core/jetty-util/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/$version$/jetty-util-$version$-javadoc.jar",
+    "description" : "Utility classes for Jetty. It provides foundational helpers for resources, security, SSL, threading, statistics, and other shared infrastructure used across Jetty components.",
+    "tested-versions" : [
+      "12.0.9",
+      "12.0.10",
+      "12.0.11",
+      "12.0.12",
+      "12.0.13",
+      "12.0.14",
+      "12.0.15",
+      "12.0.16",
+      "12.0.17",
+      "12.0.18",
+      "12.0.19",
+      "12.0.20",
+      "12.0.21",
+      "12.0.22",
+      "12.0.23",
+      "12.0.24",
+      "12.0.25",
+      "12.0.26",
+      "12.0.27",
+      "12.0.28",
+      "12.0.29",
+      "12.1.0",
+      "12.1.1",
+      "12.1.2",
+      "12.1.3",
+      "12.1.4",
+      "12.1.5",
+      "12.1.6",
+      "12.1.7",
+      "12.1.8",
+      "12.1.9",
+      "12.1.10"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "5.0.0.Alpha1",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/$version$/jakarta.enterprise.lang-model-$version$-sources.jar",
+    "repository-url" : "https://github.com/jakartaee/cdi",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/jakarta/enterprise/cdi-tck-lang-model/$version$/cdi-tck-lang-model-$version$-sources.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/$version$/jakarta.enterprise.lang-model-$version$-javadoc.jar",
+    "description" : "Jakarta Enterprise Language Model provides the reflection-free Java language model used by CDI build compatible extensions. It exposes APIs for representing classes, methods, fields, constructors, annotations, and types so CDI tooling can analyze application code at build time.",
+    "tested-versions" : [
+      "5.0.0.Alpha1",
+      "5.0.0.Alpha3",
+      "5.0.0.Alpha4",
+      "5.0.0.Alpha5",
+      "5.0.0-M1"
+    ],
+    "allowed-packages" : [
+      "jakarta.enterprise.lang.model"
+    ]
+  },
+  {
+    "metadata-version" : "4.0.0",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/$version$/jakarta.enterprise.lang-model-$version$-sources.jar",
+    "repository-url" : "https://github.com/jakartaee/cdi",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/jakarta/enterprise/cdi-tck-lang-model/$version$/cdi-tck-lang-model-$version$-sources.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/jakarta/enterprise/jakarta.enterprise.lang-model/$version$/jakarta.enterprise.lang-model-$version$-javadoc.jar",
+    "description" : "Jakarta Enterprise Language Model provides the reflection-free Java language model used by CDI build compatible extensions. It exposes APIs for representing classes, methods, fields, constructors, annotations, and types so CDI tooling can analyze application code at build time.",
+    "tested-versions" : [
+      "4.0.0",
+      "4.0.1",
+      "4.1.0"
+    ],
+    "allowed-packages" : [
+      "jakarta.enterprise.lang.model"
+    ]
+  }
+]

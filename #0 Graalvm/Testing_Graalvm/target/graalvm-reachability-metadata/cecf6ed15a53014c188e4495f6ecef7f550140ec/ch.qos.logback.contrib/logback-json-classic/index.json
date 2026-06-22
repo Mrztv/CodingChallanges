@@ -1,0 +1,17 @@
+[
+  {
+    "latest": true,
+    "allowed-packages": [
+      "ch.qos.logback"
+    ],
+    "metadata-version": "0.1.5",
+    "source-code-url": "https://repo1.maven.org/maven2/ch/qos/logback/contrib/logback-json-classic/$version$/logback-json-classic-$version$-sources.jar",
+    "repository-url": "https://github.com/qos-ch/logback-contrib",
+    "test-code-url": "https://github.com/qos-ch/logback-contrib/tree/v_$version$/json/classic/src/test",
+    "documentation-url": "https://repo1.maven.org/maven2/ch/qos/logback/contrib/logback-json-classic/$version$/logback-json-classic-$version$-javadoc.jar",
+    "description": "Provides a Logback Classic JSON layout that converts logging events into JSON output. It emits standard fields such as timestamp, level, thread, MDC, message, exception, and context.",
+    "tested-versions": [
+      "0.1.5"
+    ]
+  }
+]

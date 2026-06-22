@@ -1,0 +1,24 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "1.5.0",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/commons-cli/commons-cli/$version$/commons-cli-$version$-sources.jar",
+    "repository-url" : "https://github.com/apache/commons-cli",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/commons-cli/commons-cli/$version$/commons-cli-$version$-test-sources.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/commons-cli/commons-cli/$version$/commons-cli-$version$-javadoc.jar",
+    "tested-versions" : [
+      "1.5.0",
+      "1.6.0",
+      "1.7.0",
+      "1.8.0",
+      "1.9.0",
+      "1.10.0",
+      "1.11.0"
+    ],
+    "allowed-packages" : [
+      "org.apache.commons.cli",
+      "java.util"
+    ],
+    "description" : "Apache Commons CLI provides a simple API for defining, processing, and validating command-line options in Java applications. It helps applications parse arguments, enforce option rules, and generate usage information."
+  }
+]

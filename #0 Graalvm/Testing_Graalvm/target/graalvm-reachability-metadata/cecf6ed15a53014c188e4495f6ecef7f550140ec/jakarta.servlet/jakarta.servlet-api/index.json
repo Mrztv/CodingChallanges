@@ -1,0 +1,48 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "6.2.0-M1",
+    "source-code-url" : "https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/$version$/jakarta.servlet-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/jakartaee/servlet",
+    "test-code-url" : "https://github.com/jakartaee/servlet/tree/$version$-RELEASE-tck/tck",
+    "documentation-url" : "https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/$version$/jakarta.servlet-api-$version$-javadoc.jar",
+    "description" : "Jakarta Servlet defines the standard server-side API that Java web applications use to process HTTP requests and produce HTTP responses in Jakarta EE servlet containers. It provides the servlet, filter, listener, session, and HTTP support contracts implemented by containers and used by web frameworks.",
+    "tested-versions" : [
+      "6.2.0-M1",
+      "6.2.0-M2"
+    ],
+    "allowed-packages" : [
+      "jakarta.servlet"
+    ]
+  },
+  {
+    "metadata-version" : "4.0.4",
+    "source-code-url" : "https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/$version$/jakarta.servlet-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/jakartaee/servlet",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/$version$/jakarta.servlet-api-$version$-javadoc.jar",
+    "description" : "Jakarta Servlet defines the standard server-side API for Java web applications to process HTTP requests and generate responses. It provides interfaces and classes for servlets, filters, listeners, sessions, and deployment descriptors for Servlet 4.0 applications.",
+    "tested-versions" : [
+      "4.0.4"
+    ],
+    "allowed-packages" : [
+      "javax.servlet"
+    ]
+  },
+  {
+    "metadata-version" : "5.0.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/$version$/jakarta.servlet-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/jakartaee/servlet",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/jakarta/servlet/jakarta.servlet-api/$version$/jakarta.servlet-api-$version$-javadoc.jar",
+    "description" : "Jakarta Servlet defines the standard server-side API for Java web applications to process HTTP requests and generate responses. It provides interfaces and classes for servlets, filters, listeners, sessions, and deployment descriptors in Jakarta EE 9.",
+    "tested-versions" : [
+      "5.0.0",
+      "6.0.0",
+      "6.1.0"
+    ],
+    "allowed-packages" : [
+      "jakarta.servlet"
+    ]
+  }
+]

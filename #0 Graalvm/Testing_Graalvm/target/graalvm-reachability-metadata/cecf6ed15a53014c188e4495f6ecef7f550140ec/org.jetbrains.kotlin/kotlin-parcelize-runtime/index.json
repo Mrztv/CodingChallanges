@@ -1,0 +1,54 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "1.7.10",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-parcelize-runtime/$version$/kotlin-parcelize-runtime-$version$-sources.jar",
+    "repository-url" : "https://github.com/JetBrains/kotlin",
+    "test-code-url" : "https://github.com/JetBrains/kotlin/tree/v$version$/plugins/parcelize/parcelize-compiler/tests",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-parcelize-runtime/$version$/kotlin-parcelize-runtime-$version$-javadoc.jar",
+    "description" : "Kotlin Parcelize Runtime provides the annotations and helper types used by Kotlin's Parcelize compiler plugin to generate Android Parcelable implementations. It supplies APIs such as @Parcelize, Parceler, TypeParceler, RawValue, and parcelableCreator that generated Kotlin Android code references at compile time and runtime.",
+    "language" : {
+      "name" : "kotlin",
+      "version" : "1.7"
+    },
+    "tested-versions" : [
+      "1.7.10",
+      "1.7.20",
+      "1.7.21",
+      "1.7.22",
+      "1.8.0",
+      "1.8.10",
+      "1.8.20",
+      "1.8.21",
+      "1.8.22",
+      "1.9.0",
+      "1.9.10",
+      "1.9.20",
+      "1.9.21",
+      "1.9.22",
+      "1.9.23",
+      "1.9.24",
+      "1.9.25",
+      "2.0.0",
+      "2.0.10",
+      "2.0.20",
+      "2.0.21",
+      "2.1.0",
+      "2.1.10",
+      "2.1.20",
+      "2.1.21",
+      "2.2.0",
+      "2.2.10",
+      "2.2.20",
+      "2.2.21",
+      "2.3.0",
+      "2.3.10",
+      "2.3.20",
+      "2.3.21",
+      "2.4.0"
+    ],
+    "allowed-packages" : [
+      "kotlinx.parcelize"
+    ]
+  }
+]

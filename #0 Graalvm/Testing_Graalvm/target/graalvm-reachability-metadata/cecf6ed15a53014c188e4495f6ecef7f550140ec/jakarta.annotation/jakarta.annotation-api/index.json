@@ -1,0 +1,62 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "3.0.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/$version$/jakarta.annotation-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/jakartaee/common-annotations-api",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/$version$/jakarta.annotation-api-$version$-javadoc.jar",
+    "description" : "Jakarta Annotations defines standard Java annotations for common semantic concepts used across Jakarta EE and related Java technologies. This artifact provides the version 3.0.0 API types in the jakarta.annotation package, including lifecycle, security, resource, nullability, priority, and generated-code annotations.",
+    "tested-versions" : [
+      "3.0.0"
+    ],
+    "allowed-packages" : [
+      "jakarta.annotation"
+    ]
+  },
+  {
+    "metadata-version" : "2.1.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/$version$/jakarta.annotation-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/jakartaee/common-annotations-api",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/$version$/jakarta.annotation-api-$version$-javadoc.jar",
+    "description" : "Jakarta Annotations defines standard Java annotations for common semantic concepts used across Jakarta EE and related Java technologies. This artifact provides the version 2.1.0 API types in the jakarta.annotation package, including lifecycle, security, resource, and generated-code annotations.",
+    "tested-versions" : [
+      "2.1.0",
+      "2.1.1"
+    ],
+    "allowed-packages" : [
+      "jakarta.annotation"
+    ]
+  },
+  {
+    "metadata-version" : "2.0.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/$version$/jakarta.annotation-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/jakartaee/common-annotations-api",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/$version$/jakarta.annotation-api-$version$-javadoc.jar",
+    "description" : "Jakarta Annotations defines standard Java annotations for common semantic concepts used across Jakarta EE and other Java technologies. This artifact provides the version 2.0.0 API types in the `jakarta.annotation` package, including lifecycle, security, resource, and generated-code annotations.",
+    "tested-versions" : [
+      "2.0.0"
+    ],
+    "allowed-packages" : [
+      "jakarta.annotation"
+    ]
+  },
+  {
+    "metadata-version" : "1.3.3",
+    "source-code-url" : "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/$version$/jakarta.annotation-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/jakartaee/common-annotations-api",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/$version$/jakarta.annotation-api-$version$-javadoc.jar",
+    "description" : "Jakarta Annotations defines a standard set of common Java annotations that support declarative programming across Java technologies. This artifact provides the 1.3.3 API types in the `javax.annotation` package, including lifecycle, resource, and generated-code annotations.",
+    "tested-versions" : [
+      "1.3.3",
+      "1.3.4",
+      "1.3.5"
+    ],
+    "allowed-packages" : [
+      "javax.annotation"
+    ]
+  }
+]

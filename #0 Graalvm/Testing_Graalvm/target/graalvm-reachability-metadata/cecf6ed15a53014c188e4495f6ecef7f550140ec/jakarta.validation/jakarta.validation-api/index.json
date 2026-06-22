@@ -1,0 +1,22 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "3.0.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/jakarta/validation/jakarta.validation-api/$version$/jakarta.validation-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/jakartaee/validation",
+    "test-code-url" : "https://github.com/jakartaee/validation/tree/$version$/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/jakarta/validation/jakarta.validation-api/$version$/jakarta.validation-api-$version$-javadoc.jar",
+    "tested-versions" : [
+      "3.0.0",
+      "3.0.1",
+      "3.0.2",
+      "3.1.0",
+      "3.1.1",
+      "4.0.0-M1"
+    ],
+    "allowed-packages" : [
+      "jakarta.validation"
+    ],
+    "description" : "Jakarta Validation defines a metadata model and API for JavaBean and method validation. It lets applications declare constraints on objects, method parameters, and return values and validate them through a standard Validator API."
+  }
+]

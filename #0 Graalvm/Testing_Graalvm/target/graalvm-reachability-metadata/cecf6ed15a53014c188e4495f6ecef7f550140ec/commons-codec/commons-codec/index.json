@@ -1,0 +1,32 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "1.10",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/$version$/commons-codec-$version$-sources.jar",
+    "repository-url" : "https://github.com/apache/commons-codec",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/$version$/commons-codec-$version$-test-sources.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/$version$/commons-codec-$version$-javadoc.jar",
+    "description" : "Apache Commons Codec provides implementations of common encoders and decoders such as Base64, hexadecimal, phonetic, and digest utilities. It helps Java applications transform binary and text data using standard encoding, hashing, and checksum algorithms.",
+    "tested-versions" : [
+      "1.10",
+      "1.11",
+      "1.12",
+      "1.13",
+      "1.14",
+      "1.15",
+      "1.16.0",
+      "1.16.1",
+      "1.17.0",
+      "1.17.1",
+      "1.17.2",
+      "1.18.0",
+      "1.19.0",
+      "1.20.0",
+      "1.21.0",
+      "1.22.0"
+    ],
+    "allowed-packages" : [
+      "org.apache.commons.codec"
+    ]
+  }
+]

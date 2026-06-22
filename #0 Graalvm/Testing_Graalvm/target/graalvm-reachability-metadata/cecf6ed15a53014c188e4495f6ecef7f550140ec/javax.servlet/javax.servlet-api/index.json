@@ -1,0 +1,19 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "3.1.0",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/$version$/javax.servlet-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/javaee/servlet-spec",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/$version$/javax.servlet-api-$version$-javadoc.jar",
+    "tested-versions" : [
+      "3.1.0",
+      "4.0.0",
+      "4.0.1"
+    ],
+    "allowed-packages" : [
+      "javax.servlet"
+    ],
+    "description" : "Defines the Java Servlet 3.1 API for handling HTTP requests and responses in Java web applications. It provides the standard interfaces, classes, annotations, and asynchronous processing contracts used by servlet containers and web components."
+  }
+]

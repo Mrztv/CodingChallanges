@@ -1,0 +1,48 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "1.4.1",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-runtime_2.13/$version$/scalac-scoverage-runtime_2.13-$version$-sources.jar",
+    "repository-url" : "https://github.com/scoverage/scalac-scoverage-plugin",
+    "test-code-url" : "https://github.com/scoverage/scalac-scoverage-plugin/tree/v$version$/scalac-scoverage-runtime",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/scoverage/scalac-scoverage-runtime_2.13/$version$/scalac-scoverage-runtime_2.13-$version$-javadoc.jar",
+    "description" : "scalac-scoverage-runtime provides the runtime support used by the scoverage Scala compiler plugin to record coverage measurements from instrumented Scala code. It writes and reads invoked statement identifiers so scoverage can calculate statement and branch coverage after tests run.",
+    "language" : {
+      "name" : "scala",
+      "version" : "2"
+    },
+    "tested-versions" : [
+      "1.4.1",
+      "1.4.2",
+      "1.4.6",
+      "1.4.7",
+      "1.4.8",
+      "1.4.9",
+      "1.4.10",
+      "1.4.11",
+      "2.0.0",
+      "2.0.1",
+      "2.0.2",
+      "2.0.3",
+      "2.0.5",
+      "2.0.7",
+      "2.0.8",
+      "2.0.10",
+      "2.0.11",
+      "2.1.0",
+      "2.1.1",
+      "2.2.0",
+      "2.2.1",
+      "2.3.0",
+      "2.4.0",
+      "2.4.1",
+      "2.4.2",
+      "2.5.0",
+      "2.5.1",
+      "2.5.2"
+    ],
+    "allowed-packages" : [
+      "scoverage"
+    ]
+  }
+]

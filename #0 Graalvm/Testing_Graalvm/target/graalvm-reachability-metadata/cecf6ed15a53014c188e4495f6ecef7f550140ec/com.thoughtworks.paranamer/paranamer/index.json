@@ -1,0 +1,45 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "2.8.1",
+    "tested-versions" : [
+      "2.8.1",
+      "2.8.2",
+      "2.8.3"
+    ],
+    "allowed-packages" : [
+      "com.thoughtworks.paranamer"
+    ]
+  },
+  {
+    "metadata-version" : "2.3",
+    "source-code-url" : "https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/$version$/paranamer-$version$-sources.jar",
+    "repository-url" : "https://github.com/paul-hammant/paranamer",
+    "test-code-url" : "https://github.com/paul-hammant/paranamer/tree/paranamer-$version$/paranamer/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/$version$/paranamer-$version$-javadoc.jar",
+    "description" : "ParaNamer is a Java library that exposes constructor and method parameter names at runtime. It can read parameter names from generated metadata, annotations, debug symbols, or bytecode so frameworks can bind arguments without manual name declarations.",
+    "tested-versions" : [
+      "2.3-debug",
+      "2.3",
+      "2.4-debug",
+      "2.4",
+      "2.4.1",
+      "2.5",
+      "2.5.1",
+      "2.5.2",
+      "2.5.3",
+      "2.5.4",
+      "2.5.5",
+      "2.5.6",
+      "2.5.7",
+      "2.5.8",
+      "2.6",
+      "2.6.1",
+      "2.7",
+      "2.8"
+    ],
+    "allowed-packages" : [
+      "com.thoughtworks.paranamer"
+    ]
+  }
+]

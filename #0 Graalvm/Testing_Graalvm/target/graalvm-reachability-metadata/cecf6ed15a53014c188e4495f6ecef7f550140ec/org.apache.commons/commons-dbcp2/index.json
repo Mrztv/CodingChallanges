@@ -1,0 +1,19 @@
+[
+  {
+    "latest": true,
+    "allowed-packages": [
+      "org.apache.commons"
+    ],
+    "metadata-version": "2.12.0",
+    "source-code-url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp2/$version$/commons-dbcp2-$version$-sources.jar",
+    "repository-url": "https://github.com/apache/commons-dbcp",
+    "test-code-url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp2/$version$/commons-dbcp2-$version$-test-sources.jar",
+    "documentation-url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-dbcp2/$version$/commons-dbcp2-$version$-javadoc.jar",
+    "description": "Apache Commons DBCP implements database connection pooling for Java applications. It manages and reuses JDBC connections to improve efficiency and resource usage.",
+    "tested-versions": [
+      "2.12.0",
+      "2.13.0",
+      "2.14.0"
+    ]
+  }
+]

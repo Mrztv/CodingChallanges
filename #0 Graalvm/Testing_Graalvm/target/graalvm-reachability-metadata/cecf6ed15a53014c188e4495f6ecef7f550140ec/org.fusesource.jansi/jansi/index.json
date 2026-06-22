@@ -1,0 +1,65 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "2.0",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/$version$/jansi-$version$-sources.jar",
+    "repository-url" : "https://github.com/fusesource/jansi",
+    "test-code-url" : "https://github.com/fusesource/jansi/tree/jansi-$version$/src/test",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/$version$/jansi-$version$-javadoc.jar",
+    "description" : "Jansi is a Java library for generating and interpreting ANSI escape sequences in console output. It wraps output streams and native terminal support so Java applications can emit styled text and interact with terminal capabilities across platforms.",
+    "tested-versions" : [
+      "2.0",
+      "2.0.1",
+      "2.1.0",
+      "2.1.1",
+      "2.2.0",
+      "2.3.0",
+      "2.3.1",
+      "2.3.2",
+      "2.3.3",
+      "2.3.4",
+      "2.4.0",
+      "2.4.1",
+      "2.4.2",
+      "2.4.3"
+    ],
+    "allowed-packages" : [
+      "org.fusesource.jansi"
+    ]
+  },
+  {
+    "metadata-version" : "1.16",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/$version$/jansi-$version$-sources.jar",
+    "repository-url" : "https://github.com/fusesource/jansi",
+    "test-code-url" : "https://github.com/fusesource/jansi/tree/jansi-project-$version$/jansi/src/test",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/$version$/jansi-$version$-javadoc.jar",
+    "description" : "Jansi is a Java library for generating and interpreting ANSI escape sequences in console output. It wraps output streams and native terminal support so Java applications can emit styled text and interact with terminal capabilities across platforms.",
+    "tested-versions" : [
+      "1.16",
+      "1.17",
+      "1.17.1",
+      "1.18"
+    ],
+    "allowed-packages" : [
+      "org.fusesource.hawtjni.runtime",
+      "org.fusesource.jansi"
+    ]
+  },
+  {
+    "metadata-version" : "1.13",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/$version$/jansi-$version$-sources.jar",
+    "repository-url" : "https://github.com/fusesource/jansi",
+    "test-code-url" : "https://github.com/fusesource/jansi/tree/jansi-project-$version$/jansi/src/test",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/$version$/jansi-$version$-javadoc.jar",
+    "description" : "Jansi is a Java library for generating and interpreting ANSI escape sequences in console output. It wraps output streams and native terminal support so Java applications can emit styled text and interact with terminal capabilities across platforms.",
+    "tested-versions" : [
+      "1.13",
+      "1.14",
+      "1.15"
+    ],
+    "allowed-packages" : [
+      "org.fusesource.hawtjni.runtime",
+      "org.fusesource.jansi"
+    ]
+  }
+]

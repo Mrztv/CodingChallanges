@@ -1,0 +1,39 @@
+[
+  {
+    "metadata-version" : "6.2",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/$version$/asm-$version$-sources.jar",
+    "repository-url" : "https://gitlab.ow2.org/asm/asm",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-test/$version$/asm-test-$version$-sources.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/$version$/asm-$version$-javadoc.jar",
+    "description" : "ASM is a small and fast Java bytecode manipulation framework for reading, writing, and transforming Java class files. The core asm artifact provides the event-based visitor API used to generate bytecode, inspect classes, and implement tools such as compilers, profilers, and code generators.",
+    "tested-versions" : [
+      "6.2"
+    ],
+    "allowed-packages" : [
+      "org.objectweb.asm"
+    ]
+  },
+  {
+    "latest" : true,
+    "metadata-version" : "9.4",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/$version$/asm-$version$-sources.jar",
+    "repository-url" : "https://gitlab.ow2.org/asm/asm",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-test/$version$/asm-test-$version$-sources.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/$version$/asm-$version$-javadoc.jar",
+    "tested-versions" : [
+      "9.4",
+      "9.5",
+      "9.6",
+      "9.7",
+      "9.7.1",
+      "9.8",
+      "9.9",
+      "9.9.1",
+      "9.10",
+      "9.10.1"
+    ],
+    "allowed-packages" : [
+      "org.objectweb.asm"
+    ]
+  }
+]

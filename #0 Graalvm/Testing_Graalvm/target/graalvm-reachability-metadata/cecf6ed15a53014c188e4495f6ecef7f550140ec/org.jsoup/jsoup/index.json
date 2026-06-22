@@ -1,0 +1,50 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "1.15.1",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jsoup/jsoup/$version$/jsoup-$version$-sources.jar",
+    "repository-url" : "https://github.com/jhy/jsoup",
+    "test-code-url" : "https://github.com/jhy/jsoup/tree/jsoup-$version$/src/test",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jsoup/jsoup/$version$/jsoup-$version$-javadoc.jar",
+    "description" : "jsoup is a Java library for parsing, cleaning, extracting, and manipulating real-world HTML. It provides a DOM API with CSS selector and jQuery-like methods while following the WHATWG HTML5 parsing model.",
+    "tested-versions" : [
+      "1.15.1",
+      "1.15.2",
+      "1.15.3",
+      "1.15.4",
+      "1.16.1",
+      "1.16.2",
+      "1.17.1",
+      "1.17.2",
+      "1.18.1",
+      "1.18.2",
+      "1.18.3",
+      "1.19.1",
+      "1.20.1",
+      "1.21.1",
+      "1.21.2",
+      "1.22.1",
+      "1.22.2"
+    ],
+    "allowed-packages" : [
+      "org.jsoup"
+    ]
+  },
+  {
+    "metadata-version" : "1.13.1",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jsoup/jsoup/$version$/jsoup-$version$-sources.jar",
+    "repository-url" : "https://github.com/jhy/jsoup",
+    "test-code-url" : "https://github.com/jhy/jsoup/tree/jsoup-$version$/src/test",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jsoup/jsoup/$version$/jsoup-$version$-javadoc.jar",
+    "description" : "jsoup is a Java library for parsing, cleaning, extracting, and manipulating real-world HTML. It provides a DOM API with CSS selector and jQuery-like methods while following the WHATWG HTML5 parsing model.",
+    "tested-versions" : [
+      "1.13.1",
+      "1.14.1",
+      "1.14.2",
+      "1.14.3"
+    ],
+    "allowed-packages" : [
+      "org.jsoup"
+    ]
+  }
+]

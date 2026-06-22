@@ -1,0 +1,38 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "10.0-b28",
+    "tested-versions" : [
+      "10.0-b28"
+    ],
+    "allowed-packages" : [
+      "javax.annotation"
+    ],
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/glassfish/javax.annotation/$version$/javax.annotation-$version$-sources.jar",
+    "repository-url" : "https://github.com/javaee/glassfish",
+    "test-code-url" : "N/A",
+    "documentation-url" : "N/A",
+    "description" : "This artifact provides the JSR-250 Common Annotations API as an OSGi bundle for GlassFish. It defines standard javax.annotation lifecycle, resource-injection, security, generated-code, and SQL data-source annotations used by Java EE components."
+  },
+  {
+    "metadata-version" : "3.1",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/glassfish/javax.annotation/$version$/javax.annotation-$version$-sources.jar",
+    "repository-url" : "https://github.com/javaee/glassfish",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://javadoc.io/doc/org.glassfish/javax.annotation/$version$",
+    "description" : "This artifact provides the JSR-250 Common Annotations API as an OSGi bundle for GlassFish. It defines standard javax.annotation lifecycle, resource-injection, security, generated-code, and SQL data-source annotations used by Java EE components.",
+    "tested-versions" : [
+      "3.1",
+      "3.1.1",
+      "3.2-b01",
+      "3.2-b02",
+      "3.2-b03",
+      "3.2-b04",
+      "3.2-b05",
+      "3.2-b06"
+    ],
+    "allowed-packages" : [
+      "javax.annotation"
+    ]
+  }
+]

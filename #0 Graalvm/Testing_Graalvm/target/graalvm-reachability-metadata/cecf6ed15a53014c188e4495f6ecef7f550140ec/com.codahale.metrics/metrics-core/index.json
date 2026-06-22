@@ -1,0 +1,18 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "3.0.1",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/com/codahale/metrics/metrics-core/$version$/metrics-core-$version$-sources.jar",
+    "repository-url" : "https://github.com/dropwizard/metrics",
+    "test-code-url" : "https://github.com/dropwizard/metrics/tree/v$version$/metrics-core/src/test",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/com/codahale/metrics/metrics-core/$version$/metrics-core-$version$-javadoc.jar",
+    "description" : "Metrics Core provides the core metric types and registry infrastructure for the Dropwizard Metrics library. It helps Java applications record counters, gauges, histograms, meters, and timers so runtime behavior can be observed in production.",
+    "tested-versions" : [
+      "3.0.1",
+      "3.0.2"
+    ],
+    "allowed-packages" : [
+      "com.codahale.metrics"
+    ]
+  }
+]

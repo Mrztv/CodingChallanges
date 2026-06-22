@@ -1,0 +1,256 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "9.4.8.v20171121",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.4.8.v20171121",
+      "9.4.21.v20190926",
+      "9.4.22.v20191022",
+      "9.4.23.v20191118",
+      "9.4.24.v20191120",
+      "9.4.25.v20191220",
+      "9.4.26.v20200117",
+      "9.4.27.v20200227",
+      "9.4.28.v20200408",
+      "9.4.29.v20200521",
+      "9.4.30.v20200611",
+      "9.4.31.v20200723",
+      "9.4.32.v20200930",
+      "9.4.33.v20201020",
+      "9.4.34.v20201102",
+      "9.4.35.v20201120",
+      "9.4.36.v20210114",
+      "9.4.37.v20210219",
+      "9.4.38.v20210224",
+      "9.4.39.v20210325",
+      "9.4.40.v20210413",
+      "9.4.41.v20210516",
+      "9.4.42.v20210604",
+      "9.4.43.v20210629",
+      "9.4.44.v20210927",
+      "9.4.45.v20220203",
+      "9.4.46.v20220331",
+      "9.4.47.v20220610",
+      "9.4.48.v20220622",
+      "9.4.49.v20220914",
+      "9.4.50.v20221201",
+      "9.4.51.v20230217",
+      "9.4.52.v20230823",
+      "9.4.53.v20231009",
+      "9.4.54.v20240208",
+      "9.4.55.v20240627",
+      "9.4.56.v20240826",
+      "9.4.57.v20241219",
+      "9.4.58.v20250814"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  },
+  {
+    "metadata-version" : "9.4.20.v20190813",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.4.20.v20190813"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  },
+  {
+    "metadata-version" : "9.3.19.v20170502",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.3.19.v20170502",
+      "9.3.20.v20170531",
+      "9.3.21.M0",
+      "9.3.21.RC0",
+      "9.3.21.v20170918",
+      "9.3.22.v20171030",
+      "9.3.23.v20180228",
+      "9.3.24.v20180605",
+      "9.3.25.v20180904",
+      "9.3.26.v20190403",
+      "9.3.27.v20190418",
+      "9.3.28.v20191105",
+      "9.3.29.v20201019",
+      "9.3.30.v20211001"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  },
+  {
+    "metadata-version" : "9.4.0.v20180619",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.4.0.v20180619",
+      "9.4.1.v20170120",
+      "9.4.1.v20180619",
+      "9.4.2.v20170220",
+      "9.4.2.v20180619",
+      "9.4.3.v20170317",
+      "9.4.3.v20180619",
+      "9.4.4.v20170414",
+      "9.4.4.v20180619",
+      "9.4.5.v20170502",
+      "9.4.5.v20180619",
+      "9.4.6.v20170531",
+      "9.4.6.v20180619",
+      "9.4.7.RC0",
+      "9.4.7.v20170914",
+      "9.4.7.v20180619"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  },
+  {
+    "metadata-version" : "9.4.0.v20161208",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.4.0.v20161208"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  },
+  {
+    "metadata-version" : "9.4.0.RC3",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.4.0.RC3"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  },
+  {
+    "metadata-version" : "9.4.0.RC2",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.4.0.RC2"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  },
+  {
+    "metadata-version" : "9.4.0.RC1",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.4.0.RC1"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  },
+  {
+    "metadata-version" : "9.4.0.RC0",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.4.0.RC0"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  },
+  {
+    "metadata-version" : "9.4.0.M1",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.4.0.M1"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  },
+  {
+    "metadata-version" : "9.4.0.M0",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-sources.jar",
+    "repository-url" : "https://github.com/jetty/jetty.project",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-tests.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/$version$/jetty-servlet-$version$-javadoc.jar",
+    "description" : "Jetty Servlet provides the servlet container layer for Eclipse Jetty, including servlet holders, contexts, filters, mappings, and session integration. It lets Jetty applications host and manage Java Servlet API components inside embedded or standalone Jetty servers.",
+    "tested-versions" : [
+      "9.4.0.M0"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jetty.servlet",
+      "org.eclipse.jetty.http",
+      "org.eclipse.jetty.server.handler",
+      "org.eclipse.jetty.util"
+    ]
+  }
+]

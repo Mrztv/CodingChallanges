@@ -1,0 +1,82 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "4.0.Final",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api/$version$/weld-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/weld/api",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api/$version$/weld-api-$version$-javadoc.jar",
+    "description" : "Weld API provides Weld-specific extensions to the CDI API for Java applications. It defines context, conversation, servlet, and related dependency injection integration interfaces used by Weld-based runtimes.",
+    "tested-versions" : [
+      "4.0.Final",
+      "4.0.SP1",
+      "5.0.Final",
+      "5.0.SP1",
+      "5.0.SP2",
+      "5.0.SP3",
+      "6.0.Final",
+      "7.0.Alpha1",
+      "7.0.Alpha2",
+      "7.0.Alpha3",
+      "7.0.Alpha4",
+      "7.0.Alpha5",
+      "7.0.Alpha6",
+      "7.0.Alpha7",
+      "7.0.Beta1"
+    ],
+    "allowed-packages" : [
+      "org.jboss.weld"
+    ]
+  },
+  {
+    "metadata-version" : "2.0.Final",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api/$version$/weld-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/weld/api",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api/$version$/weld-api-$version$-javadoc.jar",
+    "description" : "Weld API provides Weld-specific extensions to the CDI API for Java applications. It defines context, conversation, servlet, and related dependency injection integration interfaces used by Weld-based runtimes.",
+    "tested-versions" : [
+      "2.0.Final"
+    ],
+    "allowed-packages" : [
+      "org.jboss.weld.context"
+    ]
+  },
+  {
+    "metadata-version" : "1.2.0.Beta1",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api/1.2.0.Beta1/weld-api-1.2.0.Beta1-sources.jar",
+    "repository-url" : "https://github.com/weld/api",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api/1.2.0.Beta1/weld-api-1.2.0.Beta1-javadoc.jar",
+    "description" : "Weld API provides Weld-specific extensions to the CDI API for Java EE applications. It defines interfaces for contexts, conversations, servlet integration, and other dependency injection integration points used by Weld-based runtimes.",
+    "tested-versions" : [
+      "1.2.0.Beta1"
+    ],
+    "allowed-packages" : [
+      "org.jboss.weld.context"
+    ]
+  },
+  {
+    "metadata-version" : "1.1.0-01-glassfish",
+    "tested-versions" : [
+      "1.1.0-01-glassfish"
+    ],
+    "allowed-packages" : [
+      "org.jboss.weld.conversation"
+    ]
+  },
+  {
+    "metadata-version" : "1.1.Final",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api/$version$/weld-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/weld/api",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api/$version$/weld-api-$version$-javadoc.jar",
+    "description" : "Weld API provides Weld-specific extensions to the CDI API for Java EE applications. It defines interfaces for Weld-managed contexts, conversations, servlet integration, and related dependency injection integration points.",
+    "tested-versions" : [
+      "1.1.Final"
+    ],
+    "allowed-packages" : [
+      "org.jboss.weld.context"
+    ]
+  }
+]

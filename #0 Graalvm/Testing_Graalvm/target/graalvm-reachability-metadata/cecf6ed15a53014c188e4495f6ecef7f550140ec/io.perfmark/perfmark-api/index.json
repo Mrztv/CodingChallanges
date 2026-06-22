@@ -1,0 +1,19 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "0.25.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/io/perfmark/perfmark-api/$version$/perfmark-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/perfmark/perfmark",
+    "test-code-url" : "https://github.com/perfmark/perfmark/tree/v$version$/api/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/io/perfmark/perfmark-api/$version$/perfmark-api-$version$-javadoc.jar",
+    "description" : "PerfMark is a low-overhead, manually instrumented tracing API for Java applications. It lets callers mark tasks, events, and cross-thread links so timing data can be gathered by PerfMark implementations and exported for analysis.",
+    "tested-versions" : [
+      "0.25.0",
+      "0.26.0",
+      "0.27.0"
+    ],
+    "allowed-packages" : [
+      "io.perfmark"
+    ]
+  }
+]

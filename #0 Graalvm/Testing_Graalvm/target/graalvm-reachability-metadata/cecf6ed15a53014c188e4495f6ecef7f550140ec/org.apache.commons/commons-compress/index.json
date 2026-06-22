@@ -1,0 +1,39 @@
+[
+  {
+    "metadata-version" : "1.21",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/$version$/commons-compress-$version$-sources.jar",
+    "repository-url" : "https://github.com/apache/commons-compress",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/$version$/commons-compress-$version$-test-sources.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/$version$/commons-compress-$version$-javadoc.jar",
+    "description" : "Apache Commons Compress provides APIs for reading and writing common archive and compression formats. It supports formats such as ZIP, TAR, 7z, AR, CPIO, GZIP, BZIP2, XZ, LZ4, Brotli, and Zstandard.",
+    "tested-versions" : [
+      "1.21"
+    ],
+    "allowed-packages" : [
+      "org.apache.commons.compress"
+    ]
+  },
+  {
+    "latest" : true,
+    "metadata-version" : "1.23.0",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/$version$/commons-compress-$version$-sources.jar",
+    "repository-url" : "https://github.com/apache/commons-compress",
+    "test-code-url" : "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/$version$/commons-compress-$version$-test-sources.jar",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/$version$/commons-compress-$version$-javadoc.jar",
+    "description" : "Apache Commons Compress provides APIs for reading and writing common archive and compression formats. It supports formats such as ZIP, TAR, 7z, AR, CPIO, GZIP, BZIP2, XZ, LZ4, Brotli, and Zstandard.",
+    "tested-versions" : [
+      "1.23.0",
+      "1.24.0",
+      "1.25.0",
+      "1.26.0",
+      "1.26.1",
+      "1.26.2",
+      "1.27.0",
+      "1.27.1",
+      "1.28.0"
+    ],
+    "allowed-packages" : [
+      "org.apache.commons"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "23.0.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/jetbrains/annotations-java5/$version$/annotations-java5-$version$-sources.jar",
+    "repository-url" : "https://github.com/JetBrains/java-annotations",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/jetbrains/annotations-java5/$version$/annotations-java5-$version$-javadoc.jar",
+    "tested-versions" : [
+      "23.0.0",
+      "23.1.0",
+      "24.0.0",
+      "24.0.1",
+      "24.1.0"
+    ],
+    "allowed-packages" : [
+      "org.jetbrains"
+    ],
+    "description" : "JetBrains Java Annotations is a set of annotations for code inspection support and code documentation. It provides annotations for nullability, contracts, API status, language injection, and related metadata used by IDEs and static analysis tools."
+  }
+]

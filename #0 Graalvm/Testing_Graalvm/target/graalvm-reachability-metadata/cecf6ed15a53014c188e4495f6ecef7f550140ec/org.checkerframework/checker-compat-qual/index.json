@@ -1,0 +1,18 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "2.5.5",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/$version$/checker-compat-qual-$version$-sources.jar",
+    "repository-url" : "https://github.com/typetools/checker-framework",
+    "test-code-url" : "https://github.com/typetools/checker-framework/tree/checker-framework-$version$/checker/tests/nullness-extra/compat",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/$version$/checker-compat-qual-$version$-javadoc.jar",
+    "tested-versions" : [
+      "2.5.5",
+      "2.5.6"
+    ],
+    "allowed-packages" : [
+      "org.checkerframework"
+    ],
+    "description" : "This artifact provides compatibility annotations from the Checker Framework, including declaration-only nullness and key qualifiers such as @NullableDecl, @NonNullDecl, and @KeyForDecl, for use in Java 7 code. It lets code use these qualifiers without depending on Java 8 type-annotation classes."
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "3.32.0",
+    "test-version" : "3.26.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-sources.jar",
+    "repository-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core",
+    "test-code-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/tree/R4_26/org.eclipse.jdt.core.tests.compiler",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-javadoc.jar",
+    "description" : "Eclipse Compiler for Java (ECJ) is the Java compiler implementation from the Eclipse JDT project, packaged for standalone use through Maven. It can compile Java source programmatically or from the command line and includes Eclipse's incremental compiler and batch compiler infrastructure.",
+    "tested-versions" : [
+      "3.32.0",
+      "3.33.0"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jdt"
+    ]
+  },
+  {
+    "metadata-version" : "3.30.0",
+    "test-version" : "3.26.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-sources.jar",
+    "repository-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core",
+    "test-code-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/tree/R4_24/org.eclipse.jdt.core.tests.compiler",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-javadoc.jar",
+    "description" : "Eclipse Compiler for Java (ECJ) is the Java compiler implementation from the Eclipse JDT project, packaged for standalone use through Maven. It can compile Java source programmatically or from the command line and includes Eclipse's incremental compiler and batch compiler infrastructure.",
+    "tested-versions" : [
+      "3.30.0"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jdt"
+    ]
+  },
+  {
+    "metadata-version" : "3.29.0",
+    "test-version" : "3.26.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-sources.jar",
+    "repository-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core",
+    "test-code-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/tree/R4_23/org.eclipse.jdt.core.tests.compiler",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-javadoc.jar",
+    "description" : "Eclipse Compiler for Java (ECJ) is the Java compiler implementation from the Eclipse JDT project, packaged for standalone use through Maven. It can compile Java source programmatically or from the command line and includes Eclipse's incremental compiler and batch compiler infrastructure.",
+    "tested-versions" : [
+      "3.29.0"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jdt"
+    ]
+  },
+  {
+    "metadata-version" : "3.28.0",
+    "test-version" : "3.26.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-sources.jar",
+    "repository-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core",
+    "test-code-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/tree/R4_22/org.eclipse.jdt.core.tests.compiler",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-javadoc.jar",
+    "description" : "Eclipse Compiler for Java (ECJ) is the Java compiler implementation from the Eclipse JDT project, packaged for standalone use through Maven. It can compile Java source programmatically or from the command line and includes Eclipse's incremental compiler and batch compiler infrastructure.",
+    "tested-versions" : [
+      "3.28.0"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jdt"
+    ]
+  },
+  {
+    "metadata-version" : "3.27.0",
+    "test-version" : "3.26.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-sources.jar",
+    "repository-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core",
+    "test-code-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/tree/R4_21/org.eclipse.jdt.core.tests.compiler",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-javadoc.jar",
+    "description" : "Eclipse Compiler for Java (ECJ) is the Java compiler implementation from the Eclipse JDT project, packaged for standalone use through Maven. It can compile Java source programmatically or from the command line and includes Eclipse's incremental compiler and batch compiler infrastructure.",
+    "tested-versions" : [
+      "3.27.0"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jdt"
+    ]
+  },
+  {
+    "metadata-version" : "3.26.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-sources.jar",
+    "repository-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core",
+    "test-code-url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/tree/R4_20/org.eclipse.jdt.core.tests.compiler",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/eclipse/jdt/ecj/$version$/ecj-$version$-javadoc.jar",
+    "description" : "Eclipse Compiler for Java (ECJ) is the Java compiler implementation from the Eclipse JDT project, packaged for standalone use through Maven. It can compile Java source programmatically or from the command line and includes Eclipse's incremental compiler and batch compiler infrastructure.",
+    "tested-versions" : [
+      "3.26.0"
+    ],
+    "allowed-packages" : [
+      "org.eclipse.jdt"
+    ]
+  }
+]

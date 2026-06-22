@@ -1,0 +1,18 @@
+[
+  {
+    "latest": true,
+    "allowed-packages": [
+      "org.jboss",
+      "javax.servlet"
+    ],
+    "metadata-version": "2.0.0.Final",
+    "tested-versions": [
+      "2.0.0.Final"
+    ],
+    "source-code-url": "https://repo1.maven.org/maven2/org/jboss/spec/javax/servlet/jboss-servlet-api_4.0_spec/$version$/jboss-servlet-api_4.0_spec-$version$-sources.jar",
+    "repository-url": "https://github.com/jboss/jboss-jakarta-servlet-api_spec",
+    "test-code-url": "N/A",
+    "documentation-url": "https://repo1.maven.org/maven2/org/jboss/spec/javax/servlet/jboss-servlet-api_4.0_spec/$version$/jboss-servlet-api_4.0_spec-$version$-javadoc.jar",
+    "description": "Provides the Jakarta Servlet 4.0 specification API as a JBoss-packaged artifact for Java web applications. It defines the standard server-side interfaces for handling HTTP requests, responses, and related web container interactions."
+  }
+]

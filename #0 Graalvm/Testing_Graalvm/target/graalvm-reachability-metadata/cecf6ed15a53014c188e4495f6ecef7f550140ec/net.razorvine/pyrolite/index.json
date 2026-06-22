@@ -1,0 +1,32 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "5.0",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/net/razorvine/pyrolite/$version$/pyrolite-$version$-sources.jar",
+    "repository-url" : "https://github.com/irmen/Pyrolite",
+    "test-code-url" : "https://github.com/irmen/Pyrolite/tree/pyrolite-$version$/java/src/test",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/net/razorvine/pyrolite/$version$/pyrolite-$version$-javadoc.jar",
+    "description" : "Pyrolite provides a Java client implementation for the Pyro5 protocol, allowing Java programs to call methods on remote Python objects. It implements the lightweight client-side pieces needed for Java-to-Python integration and uses the Serpent serializer for data exchange.",
+    "tested-versions" : [
+      "5.0",
+      "5.1"
+    ],
+    "allowed-packages" : [
+      "net.razorvine.pyro"
+    ]
+  },
+  {
+    "metadata-version" : "4.30",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/net/razorvine/pyrolite/$version$/pyrolite-$version$-sources.jar",
+    "repository-url" : "https://github.com/irmen/Pyrolite",
+    "test-code-url" : "https://github.com/irmen/Pyrolite/tree/pyrolite-$version$/java/src/test",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/net/razorvine/pyrolite/$version$/pyrolite-$version$-javadoc.jar",
+    "description" : "Pyrolite lets Java applications interact with Python services over the Pyro protocol by invoking methods on remote Python objects. It includes Python pickle serialization support for reading and writing data exchanged with Pyro and Python.",
+    "tested-versions" : [
+      "4.30"
+    ],
+    "allowed-packages" : [
+      "net.razorvine"
+    ]
+  }
+]

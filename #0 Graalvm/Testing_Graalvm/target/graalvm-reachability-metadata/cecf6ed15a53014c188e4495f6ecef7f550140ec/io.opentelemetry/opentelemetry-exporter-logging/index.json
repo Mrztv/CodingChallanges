@@ -1,0 +1,49 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "1.20.0",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/$version$/opentelemetry-exporter-logging-$version$-sources.jar",
+    "repository-url" : "https://github.com/open-telemetry/opentelemetry-java",
+    "test-code-url" : "https://github.com/open-telemetry/opentelemetry-java/tree/v$version$/exporters/logging/src/test",
+    "documentation-url" : "https://github.com/open-telemetry/opentelemetry-java/blob/v$version$/exporters/logging/README.md",
+    "description" : "Provides OpenTelemetry exporters that write spans and metrics via java.util.logging and emit log records to standard output. It is intended for debugging and local inspection of telemetry rather than production export pipelines.",
+    "test-version" : "1.19.0",
+    "tested-versions" : [
+      "1.20.0",
+      "1.20.1",
+      "1.21.0",
+      "1.22.0",
+      "1.23.0",
+      "1.23.1",
+      "1.24.0",
+      "1.25.0",
+      "1.26.0",
+      "1.27.0",
+      "1.28.0",
+      "1.29.0",
+      "1.30.0",
+      "1.30.1",
+      "1.31.0",
+      "1.32.0",
+      "1.33.0"
+    ],
+    "allowed-packages" : [
+      "io.opentelemetry"
+    ]
+  },
+  {
+    "override" : true,
+    "metadata-version" : "1.19.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/$version$/opentelemetry-exporter-logging-$version$-sources.jar",
+    "repository-url" : "https://github.com/open-telemetry/opentelemetry-java",
+    "test-code-url" : "https://github.com/open-telemetry/opentelemetry-java/tree/v$version$/exporters/logging/src/test",
+    "documentation-url" : "https://github.com/open-telemetry/opentelemetry-java/blob/v$version$/exporters/logging/README.md",
+    "description" : "Provides OpenTelemetry SDK exporters that write spans and metrics through java.util.logging and log records to standard output. It is mainly intended for local debugging and inspection of telemetry data rather than production export pipelines.",
+    "tested-versions" : [
+      "1.19.0"
+    ],
+    "allowed-packages" : [
+      "io.opentelemetry"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "1.0.1",
+    "source-code-url" : "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/$version$/failureaccess-$version$-sources.jar",
+    "repository-url" : "https://github.com/google/guava",
+    "test-code-url" : "N/A",
+    "documentation-url" : "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/$version$/failureaccess-$version$-javadoc.jar",
+    "tested-versions" : [
+      "1.0.1",
+      "1.0.2",
+      "1.0.3"
+    ],
+    "allowed-packages" : [
+      "com.google.guava"
+    ],
+    "description" : "failureaccess provides Guava's internal classes for optionally exposing the cause of a failed Future through a fast path. It includes InternalFutureFailureAccess and InternalFutures for lightweight failure-cause access used by Guava concurrency utilities."
+  }
+]

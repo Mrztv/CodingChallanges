@@ -1,0 +1,36 @@
+[
+  {
+    "metadata-version" : "0.11.5",
+    "source-code-url" : "https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-api/$version$/jjwt-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/jwtk/jjwt",
+    "test-code-url" : "https://github.com/jwtk/jjwt/tree/$version$/api/src/test/groovy/io/jsonwebtoken",
+    "documentation-url" : "https://github.com/jwtk/jjwt/blob/$version$/README.md",
+    "description" : "JJWT provides APIs for creating, parsing, and verifying JSON Web Tokens and JSON Web Keys in Java and Android applications. The `jjwt-api` artifact exposes the library's public interfaces, fluent builders, and supporting types for JOSE-compliant JWT processing.",
+    "tested-versions" : [
+      "0.11.5"
+    ],
+    "allowed-packages" : [
+      "io.jsonwebtoken"
+    ]
+  },
+  {
+    "latest" : true,
+    "metadata-version" : "0.12.3",
+    "source-code-url" : "https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt-api/$version$/jjwt-api-$version$-sources.jar",
+    "repository-url" : "https://github.com/jwtk/jjwt",
+    "test-code-url" : "https://github.com/jwtk/jjwt/tree/$version$/api/src/test/groovy/io/jsonwebtoken",
+    "documentation-url" : "https://github.com/jwtk/jjwt/blob/$version$/README.md",
+    "description" : "JJWT provides APIs for creating, parsing, and verifying JSON Web Tokens and JSON Web Keys in Java and Android applications. The `jjwt-api` artifact exposes the library's stable public interfaces and fluent builders for JOSE-compliant JWT processing.",
+    "tested-versions" : [
+      "0.12.3",
+      "0.12.4",
+      "0.12.5",
+      "0.12.6",
+      "0.12.7",
+      "0.13.0"
+    ],
+    "allowed-packages" : [
+      "io.jsonwebtoken"
+    ]
+  }
+]

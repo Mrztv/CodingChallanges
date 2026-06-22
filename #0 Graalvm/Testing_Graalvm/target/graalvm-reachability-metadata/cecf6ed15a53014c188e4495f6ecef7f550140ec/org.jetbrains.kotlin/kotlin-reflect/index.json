@@ -1,0 +1,49 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "1.7.10",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/$version$/kotlin-reflect-$version$-sources.jar",
+    "repository-url" : "https://github.com/JetBrains/kotlin",
+    "test-code-url" : "https://github.com/JetBrains/kotlin/tree/v$version$/compiler/testData/codegen/box/reflection",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/$version$/kotlin-reflect-$version$-javadoc.jar",
+    "description" : "kotlin-reflect is Kotlin's optional JVM runtime reflection library, providing full support for the kotlin.reflect API and related reflection extensions. It lets applications inspect Kotlin classes, functions, properties, and types at runtime without requiring reflection support in deployments that do not use it.",
+    "tested-versions" : [
+      "1.7.10",
+      "1.7.20",
+      "1.7.21",
+      "1.7.22",
+      "1.8.0",
+      "1.8.10",
+      "1.8.20",
+      "1.8.21",
+      "1.8.22",
+      "1.9.0",
+      "1.9.10",
+      "1.9.20",
+      "1.9.21",
+      "1.9.22",
+      "1.9.23",
+      "1.9.24",
+      "1.9.25",
+      "2.0.0",
+      "2.0.10",
+      "2.0.20",
+      "2.0.21",
+      "2.1.0",
+      "2.1.10",
+      "2.1.20",
+      "2.1.21",
+      "2.2.0",
+      "2.2.10",
+      "2.2.20",
+      "2.2.21",
+      "2.3.0",
+      "2.3.10",
+      "2.3.20",
+      "2.4.0"
+    ],
+    "allowed-packages" : [
+      "kotlin"
+    ]
+  }
+]

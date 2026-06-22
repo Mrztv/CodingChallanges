@@ -1,0 +1,26 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "8.0.3",
+    "source-code-url" : "https://repo1.maven.org/maven2/com/itextpdf/io/$version$/io-$version$-sources.jar",
+    "repository-url" : "https://github.com/itext/itext-java",
+    "test-code-url" : "https://github.com/itext/itext-java/tree/$version$/io/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/com/itextpdf/io/$version$/io-$version$-javadoc.jar",
+    "description" : "Provides iText's core input/output layer for reading and writing binary data, images, colors, and other low-level resources used in PDF processing. It also includes font parsing and encoding support plus random-access stream utilities that higher-level iText modules build on.",
+    "tested-versions" : [
+      "8.0.3",
+      "8.0.4",
+      "8.0.5",
+      "9.0.0",
+      "9.1.0",
+      "9.2.0",
+      "9.3.0",
+      "9.4.0",
+      "9.5.0",
+      "9.6.0"
+    ],
+    "allowed-packages" : [
+      "com.itextpdf"
+    ]
+  }
+]

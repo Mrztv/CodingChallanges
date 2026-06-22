@@ -1,0 +1,49 @@
+[
+  {
+    "latest" : true,
+    "metadata-version" : "2.0.0",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/$version$/stax-ex-$version$-sources.jar",
+    "repository-url" : "https://github.com/eclipse-ee4j/jaxb-stax-ex",
+    "test-code-url" : "https://github.com/eclipse-ee4j/jaxb-stax-ex/tree/$version$/src/test/java",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/$version$/stax-ex-$version$-javadoc.jar",
+    "description" : "stax-ex extends the JSR-173 StAX API with support for parser reuse, non-text XML infosets, and improved namespace handling. It provides Java interfaces and helpers used by JAXB and Metro to stream XML data efficiently, including binary content.",
+    "tested-versions" : [
+      "2.0.0",
+      "2.0.1",
+      "2.1.0"
+    ],
+    "allowed-packages" : [
+      "org.jvnet.staxex"
+    ]
+  },
+  {
+    "metadata-version" : "1.8.2",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/$version$/stax-ex-$version$-sources.jar",
+    "repository-url" : "https://github.com/eclipse-ee4j/jaxb-stax-ex",
+    "test-code-url" : "https://github.com/eclipse-ee4j/jaxb-stax-ex/tree/$version$/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/$version$/stax-ex-$version$-javadoc.jar",
+    "description" : "stax-ex extends the JSR-173 StAX API with utilities for higher-performance XML streaming and parser reuse. It also improves handling of non-text XML infosets and namespace processing for JAXB and Metro use cases.",
+    "tested-versions" : [
+      "1.8.2",
+      "1.8.3"
+    ],
+    "allowed-packages" : [
+      "org.jvnet.staxex"
+    ]
+  },
+  {
+    "metadata-version" : "1.8",
+    "source-code-url" : "https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/$version$/stax-ex-$version$-sources.jar",
+    "repository-url" : "https://github.com/javaee/metro-stax-ex",
+    "test-code-url" : "https://github.com/javaee/metro-stax-ex/tree/$version$/stax-ex/src/test",
+    "documentation-url" : "https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/$version$/stax-ex-$version$-javadoc.jar",
+    "description" : "stax-ex provides extensions to the JSR-173 StAX API for handling binary and streaming XML content in Java. It adds XMLStreamReader and XMLStreamWriter support that enables efficient access to data such as base64-backed content without unnecessary copying.",
+    "tested-versions" : [
+      "1.8",
+      "1.8.1"
+    ],
+    "allowed-packages" : [
+      "org.jvnet.staxex"
+    ]
+  }
+]
