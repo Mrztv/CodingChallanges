@@ -1,54 +1,49 @@
 package kg.Timur;
 
-import kg.Timur.JSONElements.JSONObject;
-import kg.Timur.JSONElements.JSONString;
-import kg.Timur.JSONElements.JSONValue;
+import kg.Timur.JSONElements.*;
 
 import java.io.File;
 import java.io.FileReader;
+import java.io.FilterOutputStream;
 import java.io.IOException;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.util.Stack;
 
 public class JSONParser {
-    static void main() {
-        try (FileReader fileReader = new FileReader("src/main/resources/tests/step2/invalid.json")) {
-            String fileString = fileReader.readAllAsString();
+
+    static void main(String[] args) throws ParseException {
+        String fileName = args[0];
+        try (FileReader fileReader = new FileReader(fileName)) {
+            String fileString = fileReader.readAllAsString().trim();
             JSONValue result = null;
             if (isValidBrackets(fileString)) {
                 ParseContext context = new ParseContext(fileString);
-                while (context.hasNext()) {
-                    char ch = context.next();
-                    if (Character.isWhitespace(ch)) continue;
-                    if (ch == '{') result = parseObject(context);
-                    if (ch == '"') result = parseString(context);
-                }
-
+                result = parseJsonValue(context);
+                if(!context.isEnd()) throw new ParseException("Smt after top level", context.getIndex());
+                if (result == null) throw new ParseException("Result is null", -1);
                 System.out.println(result.toString());
-                System.exit(0);
             } else {
-                System.exit(1);
+                throw new ParseException("Non valid brackets", 0);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    static boolean isValidBrackets(String json) {
+    static private boolean isValidBrackets(String json) {
         if (json.isEmpty()) return false;
-
-
         boolean inString = false;
-        Queue<Character> queue = new PriorityQueue<>();
+        Stack<Character> stack = new Stack<>();
         for (int i = 0; i < json.length(); i++) {
             char ch = json.charAt(i);
             if (ch == '{' || ch == '[') {
-                queue.add(ch);
-            } else if ((ch == '}' || ch == ']') && !queue.isEmpty()) {
-                if (ch == '}' && queue.peek() == '{') {
-                    queue.poll();
-                } else if (ch == ']' && queue.peek() == '[') {
-                    queue.poll();
+                stack.add(ch);
+            } else if ((ch == '}' || ch == ']') && !stack.isEmpty()) {
+                if (ch == '}' && stack.peek() == '{') {
+                    stack.pop();
+                } else if (ch == ']' && stack.peek() == '[') {
+                    stack.pop();
                 } else return false;
             } else if (ch == '\\') {
                 if (inString) {
@@ -59,50 +54,50 @@ public class JSONParser {
             }
         }
         if (inString) return false;
-        return queue.isEmpty();
+        return stack.isEmpty();
     }
 
-    static JSONObject parseObject(ParseContext context) {
+    static private JSONObject parseObject(ParseContext context) throws ParseException {
         JSONObject result = new JSONObject();
         JSONString key = new JSONString();
         JSONValue value = null;
+        boolean mustBeNext = false;
         while (context.hasNext()) {
             // Parse key for object
             while (context.hasNext()) {
                 char ch = context.next();
+                if (ch == '}' && mustBeNext) throw new ParseException("Unexpected \',\'", context.getIndex());
                 if (Character.isWhitespace(ch)) continue;
+                if (ch == '}') return result;
                 if (ch == '"') {
                     key = parseString(context);
                     break;
-                } else System.exit(3);
+                } else throw new ParseException("Error in key finding", context.getIndex());
             }
-            while (context.next() != ':') {
-            }
-            // Parse value for object
             while (context.hasNext()) {
                 char ch = context.next();
-                if (Character.isWhitespace(ch)) continue;
-                if (ch == '{') {
-                    value = parseObject(context);
-                    break;
-                }
-                if (ch == '"') {
-                    value = parseString(context);
-                    break;
-                }
+                if(Character.isWhitespace(ch)) continue;
+                if(ch == ':') break;
+                else throw new ParseException("Need to be colon", context.getIndex());
             }
+            // Parse value for object
+            value = parseJsonValue(context);
             result.put(key, value);
             while (context.hasNext()) {
                 char ch = context.next();
                 if (Character.isWhitespace(ch)) continue;
-                if (ch == ',') break;
-                if (ch == '}') return result;
+                else if (ch == ',') {
+                    mustBeNext = true;
+                    break;
+                }
+                else if (ch == '}') return result;
+                else throw new ParseException("Unexpected symbol %c".formatted(ch), context.getIndex());
             }
         }
-        return result;
+        throw new ParseException("Object not closed", context.getIndex());
     }
 
-    static JSONString parseString(ParseContext context) {
+    static private JSONString parseString(ParseContext context) throws ParseException {
         String result = "";
         while (context.hasNext()) {
             char ch = context.next();
@@ -136,14 +131,122 @@ public class JSONParser {
                     result += '\\';
                 } else if (ch == '"') {
                     result += '"';
-                } else System.exit(2);
+                } else throw new ParseException("Unexpected esc combination", 0);
             } else if (ch == '"') {
                 break;
             } else if (Character.isLetterOrDigit(ch)) {
                 result += ch;
+            } else if (ch == '\t') {
+                throw new ParseException("Tab is not allowed in JSON string", context.getIndex());
+            } else if (ch == '\n') {
+                throw new ParseException("New line is not allowed in JSON string", context.getIndex());
             }
         }
         return new JSONString(result);
     }
 
+    private static JSONBoolean parseBoolean(ParseContext context) throws ParseException {
+        context.previous();
+        while (context.hasNext()) {
+            char ch = context.next();
+            if (ch == 't' && context.next() == 'r' && context.next() == 'u' && context.next() == 'e') {
+                return new JSONBoolean(true);
+            } else if (ch == 'f' && context.next() == 'a' && context.next() == 'l' && context.next() == 's' && context.next() == 'e') {
+                return new JSONBoolean(false);
+            } else throw new ParseException("Wrong boolean type", context.getIndex());
+        }
+        throw new ParseException("End of file", -1);
+    }
+
+    private static JSONValue parseJsonValue(ParseContext context) throws ParseException {
+        JSONValue result = null;
+        while (context.hasNext()) {
+            char ch = context.next();
+            if (Character.isWhitespace(ch)) continue;
+            else if (ch == '{') {
+                result = parseObject(context);
+                break;
+            } else if (ch == '"') {
+                result = parseString(context);
+                break;
+            } else if (ch == 't' || ch == 'f') {
+                result = parseBoolean(context);
+                break;
+            } else if (ch == 'n') {
+                result = parseNull(context);
+                break;
+            } else if (Character.isDigit(ch) || ch == '-') {
+                result = parseNumber(context);
+                break;
+            } else if (ch == '[') {
+                result = parseArray(context);
+                break;
+            } else throw new ParseException("Unexpected symbol %c".formatted(ch), context.getIndex());
+        }
+        return result;
+    }
+
+    private static JSONArray parseArray(ParseContext context) throws ParseException {
+        JSONArray result = new JSONArray();
+        JSONValue value = null;
+        boolean mustBeNext = false;
+        while (context.hasNext()) {
+            if (Character.isWhitespace(context.next())) continue;
+            context.previous();
+            if(context.next() == ']' && !mustBeNext) return result;
+            context.previous();
+            if(context.next() == ']' && mustBeNext) throw new ParseException("Expected next value", context.getIndex());
+            context.previous();
+            value = parseJsonValue(context);
+            result.add(value);
+            mustBeNext = false;
+            while (context.hasNext()) {
+                char ch = context.next();
+                if (Character.isWhitespace(ch)) continue;
+                else if (ch == ',') {
+                    mustBeNext = true;
+                    break;
+                }
+                else if (ch == ']') return result;
+                else throw new ParseException("Unexpected symbol %c".formatted(ch), context.getIndex());
+            }
+        }
+        return result;
+    }
+
+    private static JSONNumber parseNumber(ParseContext context) throws ParseException {
+        context.previous();
+        String number = "";
+        while (context.hasNext()) {
+            char ch = context.next();
+            if (Character.isWhitespace(ch)) break;
+            if (ch == ','){
+                context.previous();
+                break;
+            }
+            if (ch == ']'){
+                context.previous();
+                break;
+            }
+            number += ch;
+        }
+        String tmpNum = number.replaceAll("-", "");
+        if (tmpNum.length() > 1){
+            if(tmpNum.charAt(0) == '0' && tmpNum.charAt(1) != '.') throw new ParseException("Num cant have lead zero", context.getIndex());
+        }
+        number.trim();
+        Number result = Double.parseDouble(number);
+        return new JSONNumber(result);
+    }
+
+    private static JSONNull parseNull(ParseContext context) throws ParseException {
+        context.previous();
+        while (context.hasNext()) {
+            char ch = context.next();
+            if (ch == 'n' && context.next() == 'u' && context.next() == 'l' && context.next() == 'l') {
+                return new JSONNull();
+            } else throw new ParseException("Wrong boolean type", context.getIndex());
+        }
+        throw new ParseException("End of file", -1);
+    }
 }

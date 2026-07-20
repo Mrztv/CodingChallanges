@@ -39,8 +39,16 @@ public class ParseContext {
     public Character previous() throws IndexOutOfBoundsException{
         if (index > 0){
             index--;
-            return string.charAt(index+1);
+            return string.charAt(index);
         }
         throw new IndexOutOfBoundsException("Cannot read previous character");
+    }
+
+    public boolean isEnd() {
+        return index == string.length();
+    }
+
+    public int getIndex() {
+        return index;
     }
 }
