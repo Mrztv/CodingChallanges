@@ -37,3 +37,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+
+/src/main/java/kg/Timur/testUnicode.java
