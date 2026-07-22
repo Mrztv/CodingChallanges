@@ -48,6 +48,11 @@ class MainTest {
         huffmanTree.computeRoot();
         Node root = huffmanTree.getRoot();
 
+        Map<Character, String> indexes = huffmanTree.setIndexes();
+        for (Map.Entry<Character, String> entry : indexes.entrySet()){
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
+
         Assertions.assertEquals(306, root.getValue());
 
     }

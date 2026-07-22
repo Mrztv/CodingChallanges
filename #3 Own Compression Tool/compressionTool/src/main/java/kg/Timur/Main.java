@@ -1,12 +1,8 @@
 package kg.Timur;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class Main {
     static void main(String[] args) {
@@ -23,15 +19,40 @@ public class Main {
                 huffmanTree.add(node);
             }
             huffmanTree.computeRoot();
-            Node root = huffmanTree.getRoot();
 
-            System.out.println(root.getValue());
+            FileWriter fileWriter = new FileWriter("src/main/resources/output.txt");
+            Map<Character, String> indexes = huffmanTree.setIndexes();
+            for (Map.Entry<Character, String> entry : indexes.entrySet()){
+                if (entry.getKey() =='\n') fileWriter.write("\\n" + ": " + entry.getValue() + '\n');
+                else if (entry.getKey() =='\r') fileWriter.write("\\r" + ": " + entry.getValue() + '\n');
+                else if (entry.getKey() =='\t') fileWriter.write("\\t" + ": " + entry.getValue() + '\n');
+                else fileWriter.write(entry.getKey() + ": " + entry.getValue() + '\n');
+            }
+            fileWriter.write("#########################\n");
+            fileWriter.close();
 
+            FileOutputStream fileOutputStream = new FileOutputStream("src/main/resources/output.txt", true);
+            BitOutputStream bitOutStream = new BitOutputStream(fileOutputStream);
+
+            for (int i = 0; i < fileString.length(); i++) {
+                char ch = fileString.charAt(i);
+
+                String bitString = indexes.get(ch);
+                for (int j = 0; j < bitString.length(); j++) {
+                    char bitCh = bitString.charAt(j);
+                    int bit = bitCh - 48;
+                    bitOutStream.writeBit(bit);
+                }
+            }
+
+            bitOutStream.close();
 
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 
