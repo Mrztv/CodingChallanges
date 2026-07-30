@@ -1,7 +1,0 @@
-{
-  "resources": [
-    {
-      "bundle": "com.microsoft.sqlserver.jdbc.SQLServerResource"
-    }
-  ]
-}
